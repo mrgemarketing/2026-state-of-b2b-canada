@@ -1,0 +1,14 @@
+{
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/2026-state-of-b2b-canada.pdf",
+      "dest": "/public/2026-state-of-b2b-canada.pdf",
+      "headers": {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": "inline; filename=\"2026-state-of-b2b-canada.pdf\""
+      }
+    },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
